@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "A",
+        "Rad": 30,
+        "Colour": "#6b486b"
+    },
+    {
+        "Name": "B",
+        "Rad": 20,
+        "Colour": "#d0743c"
+    },
+    {
+        "Name": "C",
+        "Rad": 15,
+        "Colour": "#ff8c00"
+    }
+]
