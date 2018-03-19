@@ -178,6 +178,7 @@
     };
 
     SlideShow.prototype.start = function () {
+        this.appendSlide();
         var lyo = this.Layout;
 
         this.App = new Vue({
@@ -207,7 +208,7 @@
 
 
                 var canvas = d3.select(this.$el).select("#canvas");
-                canvas.style("width", (1 - lyo.Prop) * 100 - 5 + "%")
+                canvas.style("width", 90 - lyo.Prop * 100 + "%")
                 lyo.Width = canvas.node().getBoundingClientRect().width;
                 lyo.Height = lyo.Width * lyo.YXratio
                 canvas.style("height", lyo.Height + "px");
